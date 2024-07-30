@@ -1,0 +1,25 @@
+.cart {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #19bac5;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid hwb(330 8% 14%);
+}
+.cart-item .quantity,
+.cart-item .item-price {
+    margin: 0 10px;
+}
+.cart-item .favorite.favorited {
+    color: #4000ff;
+}
+.cart-total {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
